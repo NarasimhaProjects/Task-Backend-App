@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 #Install the application dependencies
-RUN npm install
+RUN npm i -g nodemon
 
 EXPOSE 8000
 # Define the entry point for the container
