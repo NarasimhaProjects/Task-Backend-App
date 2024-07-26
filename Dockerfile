@@ -8,8 +8,8 @@ WORKDIR /app
 COPY . /app
 
 #Install the application dependencies
-RUN npm Install
+RUN npm Install --production --silent && mv node_modules
 
 EXPOSE 8000
 # Define the entry point for the container
-CMD ["npm", "start"]
+CMD [ "npm", "start" ]
