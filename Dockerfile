@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 #Install the application dependencies
-RUN npm Install --production --silent && mv node_modules
+RUN npm Install express
 
 EXPOSE 8000
 # Define the entry point for the container
