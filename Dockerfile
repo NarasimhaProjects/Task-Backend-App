@@ -8,6 +8,7 @@ WORKDIR /app
 COPY . /app
 
 #Install the application dependencies
+RUN NODE_ENV = development npm i
 RUN npm Install -g
 
 EXPOSE 8000
