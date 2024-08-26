@@ -9,7 +9,6 @@ COPY . /app
 
 # Install the application dependencies
 RUN npm install
-RUN npm i mongoose
 
 EXPOSE 8000
 # Define the entry point for the container
