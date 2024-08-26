@@ -1,5 +1,4 @@
 const express = require('express');
-// const { errorHandler } = require(`./middleware/errorMiddleware.js`);
 const dotenv = require('dotenv').config();
 const connectDB = require(`./connect/database`);
 const Cors = require('cors');
@@ -15,6 +14,6 @@ app.use(Cors());
 app.use('/api/tasks', require('./routes/taskRoutes'));
 app.use('/api/users', require('./routes/userRoutes'));
 
-// app.use(errorHandler);
+
 
 app.listen(port, () => console.log(`Server listening on ${port}`));
