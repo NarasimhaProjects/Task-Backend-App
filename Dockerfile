@@ -11,6 +11,6 @@ COPY . /app
 RUN npm install
 RUN npm i mongoose
 
-EXPOSE 8000
+EXPOSE 3000
 # Define the entry point for the container
 CMD ["npm", "start"]
