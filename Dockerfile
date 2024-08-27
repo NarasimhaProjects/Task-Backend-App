@@ -8,7 +8,8 @@ WORKDIR /app
 COPY . /app
 
 # Install the application dependencies
-RUN npm install
+RUN npm install axios
+
 
 EXPOSE 8000
 # Define the entry point for the container
