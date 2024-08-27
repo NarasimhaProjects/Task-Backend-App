@@ -1,6 +1,7 @@
 {
   "name": "task-mern-backend",
   "version": "1.0.0",
+  "port": 8000,
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
