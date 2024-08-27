@@ -16,4 +16,4 @@ app.use('/api/users', require('./routes/userRoutes'));
 
 
 
-app.listen(port, () => console.log(`Server listening on ${port}`));
+app.listen(port, () => console.log('Server listening the port 127.0.0.1:' + port + '/'));
