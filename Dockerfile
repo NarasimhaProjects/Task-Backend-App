@@ -9,7 +9,6 @@ COPY . /app
 
 # Install the application dependencies
 RUN npm install
-RUN npm i axios
 
 
 EXPOSE 8000
