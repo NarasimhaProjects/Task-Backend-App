@@ -1,5 +1,5 @@
 # Use the official Node.js image as the base image
-FROM node:20
+FROM node:20.15.1
 
 # Set the working directory in the container
 WORKDIR /app
@@ -9,6 +9,7 @@ COPY . /app
 
 # Install the application dependencies
 RUN npm install
+RUN npm i mongoose
 
 
 EXPOSE 8000
