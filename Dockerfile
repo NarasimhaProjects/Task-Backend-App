@@ -10,7 +10,7 @@ COPY . /app
 # Install the application dependencies
 RUN npm install
 RUN npm i mongoose
-RUN npm i middleware
+
 
 
 EXPOSE 8000
