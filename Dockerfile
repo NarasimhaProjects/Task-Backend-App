@@ -12,6 +12,6 @@ RUN npm install
 
 
 
-EXPOSE 7680
+EXPOSE 8000
 # Define the entry point for the container
 CMD ["npm", "start"]
